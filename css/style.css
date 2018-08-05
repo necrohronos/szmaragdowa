@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#heroheader {
+    height: 110vh;
+    background-color: #0A5E14;
+    background-image: url(../img/hero-header.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 91%, 81% 91%, 72% 90%, 47% 93%, 0 100%);
+clip-path: polygon(0% 0%, 100% 0%, 100% 91%, 81% 91%, 72% 90%, 47% 93%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*
+.dropdown-menu {
+    z-index: 1000;
+}*/
+footer {
+    background-color: #0A5E14;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+#points {
+    background-color: #0A5E14;
+    color: #fff;
+    text-align: center;
+    min-height: 50vh;
+    padding-top: 50px;
+}
+.fa-4x:hover {
+    transform: scale(1.2);
+}
+#plain {
+    height: 100vh;
+    background-image: url('http://kolonieszmaragdowe.pl/wp-content/uploads/2016/04/par1.jpg');
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 81%, 70% 94%, 34% 80%, 0 80%, 0 43%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 81%, 70% 94%, 34% 80%, 0 80%, 0 43%, 0 0);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plain > div {
+    color: #fff;
+    text-align: center;
+    width: 60%;
+}
+#trust {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 50vh;
+}
+#trust >div {
+    border-top: 2px dotted #0A5E14;
+    border-bottom: 2px dotted #0A5E14;
+    color: #0A5E14;
+    width: 100%;
+    
+    text-align: center;
+    font-size: 3em;
+}
