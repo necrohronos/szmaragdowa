@@ -58,6 +58,15 @@ a:hover .fa-facebook-square {
 a.dropdown-item.active {
     background-color: #0A5E14;
 }
+.but {
+    background-color: #0A5E14;
+    border-color: #0a5513;
+    transition: 0.5s;
+}
+.but:hover {
+    background-color: #0a5513;
+    border-color: #0A5E14;
+}
 aside.col-lg-4 {
     padding: 0;
 }

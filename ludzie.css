@@ -1,0 +1,49 @@
+.our-name {
+    color: #ca0426;
+    font-weight: 100;
+    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+.team-member {
+    width: 200px;
+/*
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+*/
+}
+.img-box {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: 1.2s;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+.person1 {
+    background-image: url(http://www.centrumingenium.pl/wp-content/uploads/2017/10/lustrzani2-006-300x200.jpg);     
+}
+.person2 {
+    background-image: url(http://www.centrumingenium.pl/wp-content/uploads/2017/09/lustrzani-022-300x200.jpg);     
+}
+.person3 {
+    background-image: url(http://www.centrumingenium.pl/wp-content/uploads/2017/09/lustrzani2-009-300x200.jpg);     
+}
+.person4 {
+    background-image: url(http://www.centrumingenium.pl/wp-content/uploads/2018/02/Korczak2-300x245.jpg);     
+}
+.team-member:hover > .img-box {
+    opacity: 1;
+}
+.content-box {
+    text-align: center;
+}
